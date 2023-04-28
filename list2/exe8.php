@@ -27,15 +27,15 @@
             return find_Sum($array, $index, $result);
         };
 
-        function priting_equation($item,$key) {
+        function printing_equation($item,$key) {
             print("<br>(".$key.") + (".$item.") = 6");
         } 
         
        $array = array(1, 8, 13, 11, 1, 3, -2, -6, 5);
 
-       $result_array = find_Sum($array,$goal);
+       $result_array = find_Sum($array);
 
-        array_walk($result_array, 'priting_equation');   
+        array_walk($result_array, 'printing_equation');   
     ?> 
 </body>
 </html>
