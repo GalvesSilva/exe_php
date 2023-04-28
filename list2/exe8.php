@@ -17,7 +17,7 @@
             $x = ($array[$index] * - 1) + 6;
 
             if(in_array($x, $array) && !in_array($x, $result) && !array_key_exists($x, $result)){
-                $result[$array[$index]] = $x;
+                $result[ $array[$index] ] = $x;
             }else {
                 unset($array[$index]);
             }
