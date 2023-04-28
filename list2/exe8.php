@@ -18,11 +18,9 @@
 
             if(in_array($x, $array) && !in_array($x, $result) && !array_key_exists($x, $result)){
                 $result[$array[$index]] = $x;
-            }else {
-                unset($array[$index]);
             }
 
-            $index += 1;
+            $index ++;
 
             return find_Sum($array, $index, $result);
         };
