@@ -7,15 +7,13 @@
     <title>Document</title>
 </head>
 <body>
-    <?php 
+    <?php
         $array = [0,2,0,0,-1,23,4,6,0,0,0,0,7,10];
-        $zero = array_filter($array, function($array) {
-            return $array == 0;
-        });
-        $result_array = array_merge(array_filter($array),$zero);
+        $zero_array = array_filter($array, function($d) { return $d == '0'; });
+        $result_array = array_merge(array_filter($array),$zero_array);
         print_r($result_array);
     ?>
-    <h2>teste</h2>
+    <h2>Teste 2</h2>
     <?php 
         $array = [0,2,0,0,-1,23,4,6,0,0,0,0,7,10];
         foreach($array as $key => $a){
@@ -26,5 +24,7 @@
         }
         print_r($array);
     ?>
+    <h2>Teste 3</h2>
+    
 </body>
 </html>
