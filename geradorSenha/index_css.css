@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #424242;
+    font-family: 'Ubuntu', sans-serif;
+    color: #F1F1F1;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 64px;
+}
+
+.box {
+    background: #212121;
+    max-width: 600px;
+    word-break: break-all;
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+h2{
+    margin-bottom: 20px;
+    text-align: center;
+}
+.box input {
+    background: #212121;
+    color: #F1F1F1;
+    border-style: none;
+    border-bottom: 2px solid #666;
+    margin: 8px 0;
+    font-size: 24px;
+}
+
+.box #btn-enviar {
+    background: #00E676;
+    margin: 8px 25px;
+    font-size: 24px;
+    border-style: none;
+    padding: 12px;
+    border-radius: 30pc;
+    
+}
+
+.senha-gerada {
+    font-size: 24px;
+    color: #F1F1F1;
+    margin: 8px 0;
+}
