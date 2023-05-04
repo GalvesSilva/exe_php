@@ -9,7 +9,6 @@ if (isset($_POST['submit'])) {
     $password = $_POST['password'];
 
     $sql = "insert into `crud` (name,email,mobile,password) values('$name', '$email','$mobile','$password')";
-
     $result = mysqli_query($con, $sql);
 
     if($result)
@@ -22,7 +21,6 @@ if (isset($_POST['submit'])) {
         echo("<script>console.log('Não foi possivel cria ro ussári0');</script>");
     }
 }
-
 
 ?>
 

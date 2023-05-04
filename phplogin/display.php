@@ -16,7 +16,7 @@ require 'dbcon.php';
 
 <body>
     <div class="container">
-        <button class="btn btn-primary my-5"><a href="user.php" class="text-light link-offset-2 link-underline link-underline-opacity-0">Add user</a></button>
+        <button class="btn btn-primary my-5"><a href="create_user.php" class="text-light link-offset-2 link-underline link-underline-opacity-0">Add user</a></button>
 
         <table class="table table-hover ">
             <thead class="mdb-color darken-3">
@@ -50,7 +50,7 @@ require 'dbcon.php';
                                     <td>'.$password.'</td>
                                     <td>
                                     <button class="btn btn-primary">
-                                        <a href="user.php" class="text-light link-offset-2 link-underline link-underline-opacity-0">Update</a>
+                                        <a href="update.php?userid='.$id.'" class="text-light link-offset-2 link-underline link-underline-opacity-0">Update</a>
                                     </button>
                                     <button class="btn btn-danger">
                                         <a href="delete.php?deleteid='.$id.'" class="text-light link-offset-2 link-underline link-underline-opacity-0">Delete</a>
