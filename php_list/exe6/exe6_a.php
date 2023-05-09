@@ -8,7 +8,7 @@
 </head>
 <body>
     <form method="post" action=""<?php echo $_SERVER['PHP_SELF'];?>" >
-    Card: <input type="number" name="fnumber" >
+    Card: <input type="varchar" name="fnumber" >
     <input type="submit">
     </form>
     <?php
